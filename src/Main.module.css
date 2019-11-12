@@ -1,0 +1,26 @@
+.main {
+    height: 100vh;
+    background-color: #0D0B0C;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container img {
+    width: 400px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting span {
+    color: white;
+}

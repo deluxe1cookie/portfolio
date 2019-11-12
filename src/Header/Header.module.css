@@ -1,0 +1,13 @@
+.header {
+    height: 70px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+
+.header .container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
