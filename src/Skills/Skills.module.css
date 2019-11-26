@@ -11,8 +11,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .skillsWrap {
     display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.mySkillsWrap {
+    height: 150px;
 }

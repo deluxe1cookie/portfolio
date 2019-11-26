@@ -3,10 +3,12 @@
     background-color: #0D0B0C;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 80%;
+    height: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,4 +25,10 @@
 
 .greeting span {
     color: white;
+}
+
+.img {
+    width: 500px;
+    height: 100%;
+    background: white;
 }

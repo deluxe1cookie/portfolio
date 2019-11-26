@@ -36,7 +36,7 @@ class Skills extends React.Component {
         return (
             <div className={styles.skills}>
                 <div className={styles.container}>
-                    <span>Мои умения:</span>
+                    <div className={styles.mySkillsWrap}><span>Мои умения:</span></div>
                     <div className={styles.skillsWrap}>{skillsElements}</div>
                 </div>
             </div>

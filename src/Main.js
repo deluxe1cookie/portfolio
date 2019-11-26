@@ -10,7 +10,7 @@ function Main() {
                     <span>Я - Рома Дрюцкий</span>
                     <span>Frontend React разработчик</span>
                 </div>
-                <img src="https://sun9-33.userapi.com/c855224/v855224722/10ebfa/0GKbh9EyaFM.jpg" alt="Рома Дрюцкий"/>
+                <div className={styles.img}></div>
             </div>
         </div>
     );

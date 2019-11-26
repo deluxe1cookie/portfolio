@@ -1,4 +1,27 @@
 .footer {
     height: 300px;
     background-color: #62b9b2;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.socials div {
+    background: white;
+    height: 100px;
+    width: 100px;
 }

@@ -4,7 +4,7 @@ import styles from './Project.module.css';
 function Project(props) {
     return (
         <div className={styles.project}>
-            <div>
+            <div className={styles.backgroundImg}>
                 <a href={props.projectLink}><span>Смотреть</span></a>
             </div>
             <h2>{props.projectName}</h2>

@@ -21,11 +21,11 @@ class MyProjects extends React.Component {
         const MyProjectsElements = this.projects.map(project => <Project projectName={project.projectName}
                                                                          projectDescription={project.projectDescription}
                                                                          projectImg={project.projectImg}
-        projectLink={project.projectLink}/>)
+                                                                         projectLink={project.projectLink}/>);
         return (
             <div className={styles.myProjects}>
                 <div className={styles.container}>
-                    <span>Мои проекты:</span>
+                    <div className={styles.myProjectsWrap}><span>Мои проекты:</span></div>
                     <div className={styles.projectsWrap}>{MyProjectsElements}</div>
                 </div>
             </div>

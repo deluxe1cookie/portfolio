@@ -1,9 +1,19 @@
 .project {
-
+    width: 500px;
+    height: 600px
 }
 
-.project div img {
+.backgroundImg {
+    background: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.project div {
+.backgroundImg a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
