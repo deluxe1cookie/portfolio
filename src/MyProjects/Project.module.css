@@ -4,16 +4,18 @@
 }
 
 .backgroundImg {
-    background: white;
+    background: grey;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.backgroundImg a {
+.btnShow {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-

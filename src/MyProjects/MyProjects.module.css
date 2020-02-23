@@ -1,5 +1,5 @@
 .myProjects {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fbad6d;
     display: flex;
     justify-content: center;
@@ -11,14 +11,23 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 100px 0;
 }
 
 .myProjectsWrap {
     height: 150px;
+
 }
 
 .projectsWrap {
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 1252px) {
+    .projectsWrap {
+        justify-content: center;
+    }
 }

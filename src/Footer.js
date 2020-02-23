@@ -12,7 +12,7 @@ function Footer() {
                     <div></div>
                     <div></div>
                 </div>
-                <span>&nbsp; 2019 Все права защищены</span>
+                <span>&nbsp; 2019-2020 Все права защищены</span>
             </div>
         </div>
     );

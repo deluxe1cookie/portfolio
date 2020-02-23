@@ -1,23 +1,26 @@
 import React from 'react';
 import './App.css';
-import Header from "./Header/Header";
-import Main from "./Main";
-import Skills from "./Skills/Skills";
-import MyProjects from "./MyProjects/MyProjects";
-import Slogan from "./Slogan";
-import Contacts from "./Contacts";
-import Footer from "./Footer";
+import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contacts from './components/Contacts/Contacts';
+import Footer from "./components/Footer/Footer";
+import Particles from "react-particles-js";
+import params from './particlesjs-config';
 
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <MyProjects/>
-            <Slogan/>
-            <Contacts/>
-            <Footer/>
+            <div className="mainWrapper">
+                <Header/>
+                <Particles className='particles' params={params}/>
+                <Intro/>
+                <Skills/>
+                <Projects/>
+                <Contacts/>
+                <Footer/>
+            </div>
         </div>
     );
 }

@@ -17,11 +17,25 @@
 .socials {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 500px;
+    border: 1px solid;
+}
+
+@media screen and (max-width: 626px) {
+    .socials {
+        width: 100%;
+    }
 }
 
 .socials div {
     background: white;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (max-width: 340px) {
+    .socials div {
+        height: 50px;
+        width: 50px;
+    }
 }

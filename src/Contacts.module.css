@@ -18,9 +18,16 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    /*width: 40%;*/
     height: 50%;
     justify-content: space-between;
+    width: 500px;
+}
+
+@media screen and (max-width: 626px) {
+    .form {
+        width: 100%;
+    }
 }
 
 .formBtn {

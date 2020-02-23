@@ -15,6 +15,12 @@ class MyProjects extends React.Component {
             projectDescription: 'Список дел на React',
             projectImg: 'https://cdn.dribbble.com/users/2128942/screenshots/6567445/dribbble_2x.png',
             projectLink: '#'
+        },
+        {
+            projectName: 'Social Network',
+            projectDescription: 'Социальная сеть',
+            projectImg: 'https://cdn.dribbble.com/users/2128942/screenshots/6567445/dribbble_2x.png',
+            projectLink: '#'
         }
     ];
     render = () => {
@@ -26,7 +32,9 @@ class MyProjects extends React.Component {
             <div className={styles.myProjects}>
                 <div className={styles.container}>
                     <div className={styles.myProjectsWrap}><span>Мои проекты:</span></div>
-                    <div className={styles.projectsWrap}>{MyProjectsElements}</div>
+                    <div className={styles.projectsWrap}>
+                        {MyProjectsElements}
+                    </div>
                 </div>
             </div>
         )
