@@ -1,0 +1,24 @@
+.sectionBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sectionTitle {
+    text-align: center;
+    transform: scaleY(.9);
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.lines {
+    display: flex;
+}
+
+.line {
+    height: 1px;
+    width: 55px;
+}
+

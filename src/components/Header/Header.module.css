@@ -1,0 +1,18 @@
+.header {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background: #1f1f20;
+  z-index: 10;
+  box-shadow: 0 3px 10px rgba(0,0,0, 0.1);
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+

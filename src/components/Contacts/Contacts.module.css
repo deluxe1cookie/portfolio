@@ -1,0 +1,71 @@
+.contacts {
+    height: 80vh;
+    background: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionTitle {
+    text-align: center;
+    text-transform: uppercase;
+    transform: scaleY(.9);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.form > *:focus {
+    border-color: rgba(251, 175, 255, 0.39);
+}
+
+.formInput {
+    background: #252527;
+    border: 1px solid #4a4a4a;
+    height: 25px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: all .4s ease-in-out 0s;
+    outline: none;
+}
+
+.formText {
+    background: #252527;
+    border: 1px solid #4a4a4a;
+    color: #ffffff;
+    transition: all .4s ease-in-out 0s;
+    outline: none;
+    resize: none;
+}
+
+.form,
+.form textarea {
+    height: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .form {
+        width: 100%;
+    }
+}

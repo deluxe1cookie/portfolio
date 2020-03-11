@@ -1,0 +1,36 @@
+.buttonWrap {
+    margin-top: 20px;
+}
+
+.button {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    width: 80%;
+    z-index: -1;
+    background: #8800a8;
+    margin: 0 auto;
+    transition: all ease .25s;
+}
+
+.button:hover:after {
+    height: 100%;
+    width: 100%;
+    transition: all ease .25s;
+}
