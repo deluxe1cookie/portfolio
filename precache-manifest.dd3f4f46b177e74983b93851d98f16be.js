@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df526201e73d923fa854fc3b5ae0a97c",
+    "revision": "7432b1f477e731d27007085328ad99b6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d83e7f37cf82e030ca05",
+    "revision": "8ddc4955371b81eb53b1",
     "url": "/portfolio/static/css/main.bb49a881.chunk.css"
   },
   {
@@ -12,12 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0e0127f0.chunk.js"
   },
   {
-    "revision": "d83e7f37cf82e030ca05",
-    "url": "/portfolio/static/js/main.93d663d9.chunk.js"
+    "revision": "8ddc4955371b81eb53b1",
+    "url": "/portfolio/static/js/main.d8596fa3.chunk.js"
   },
   {
     "revision": "541d6f32ee8653586a56",
     "url": "/portfolio/static/js/runtime-main.f53748bf.js"
+  },
+  {
+    "revision": "7bbe4201f6ade1b4cc9722f94510f1e9",
+    "url": "/portfolio/static/media/2048_logo.7bbe4201.svg"
   },
   {
     "revision": "a566edf1f209d33181524d46f70354b1",
@@ -26,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5a3e24bd338c481d7179f298b7aa0292",
     "url": "/portfolio/static/media/code.5a3e24bd.svg"
-  },
-  {
-    "revision": "994f0704849518aa64237c4ac61421f4",
-    "url": "/portfolio/static/media/counter.994f0704.png"
   },
   {
     "revision": "eb659b5c669ca758bfb93faac0686d2b",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mongodb.52f42892.svg"
   },
   {
-    "revision": "4b29c6504a8dc09afd9d48498d1feee7",
-    "url": "/portfolio/static/media/network.4b29c650.png"
+    "revision": "4db5666748e26465cf4ee8beae375718",
+    "url": "/portfolio/static/media/network_bw.4db56667.png"
   },
   {
     "revision": "9a6e363b51959f70544f59c3750e698e",
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/rest.4d4be8b4.svg"
   },
   {
-    "revision": "a451f456eac79406086651dc449c331a",
-    "url": "/portfolio/static/media/telegram.a451f456.svg"
+    "revision": "b661e7775d9a0eda2793a3bb8f9fd00f",
+    "url": "/portfolio/static/media/telegram.b661e777.svg"
   },
   {
-    "revision": "457d6588068843ccdd6b1382716fe348",
-    "url": "/portfolio/static/media/todolist.457d6588.png"
+    "revision": "75a7fb38e4975c5a59f1ac8e494e910c",
+    "url": "/portfolio/static/media/todolist_bw.75a7fb38.png"
   },
   {
     "revision": "62f7492ee9ea7dd768c9db7a22386460",
