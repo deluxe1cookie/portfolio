@@ -5,13 +5,24 @@ import Project from './Project/Project';
 import todolistPic from './../../assets/projects/todolist_bw.png';
 import networkPic from './../../assets/projects/network_bw.png';
 import pic2048 from './../../assets/projects/2048_logo.svg';
+import websocketPic from './../../assets/projects/websocket_chat.png';
 
 class Projects extends React.Component {
     state = {
         projects: [
             {
-                title: '2048',
+                title: 'Websocket-чат',
                 delay: 200,
+                img: websocketPic,
+                link: 'https://inspiring-montalcini-0d1812.netlify.com/',
+                description: 'Протокол обеспечивает ' +
+                    'возможность обмена данными между браузером и сервером через постоянное соединение в виде ' +
+                    '«пакетов», без разрыва соединения и дополнительных HTTP-запросов.',
+                todo: 'Пообщаться!'
+            },
+            {
+                title: '2048',
+                delay: 400,
                 img: pic2048,
                 link: 'https://deluxe1cookie.github.io/2048/',
                 description: '19-летний итальянский разработчик Габриэле Чирулли (Gabriele Cirulli) создал ' +
@@ -20,7 +31,7 @@ class Projects extends React.Component {
             },
             {
                 title: 'Социальная сеть',
-                delay: 400,
+                delay: 600,
                 img: networkPic,
                 //   link: '',
                 description: 'Небольшая социальная сеть на React.',
@@ -28,7 +39,7 @@ class Projects extends React.Component {
             },
             {
                 title: 'Список дел',
-                delay: 600,
+                delay: 800,
                 img: todolistPic,
                 // link: '',
                 description: 'Удобный todolist для людей.',
