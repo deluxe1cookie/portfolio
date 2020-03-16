@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bb49a881.chunk.css",
-    "main.js": "/portfolio/static/js/main.d8596fa3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d8596fa3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b68c6680.chunk.css",
+    "main.js": "/portfolio/static/js/main.4c863f21.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4c863f21.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f53748bf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f53748bf.js.map",
-    "static/js/2.0e0127f0.chunk.js": "/portfolio/static/js/2.0e0127f0.chunk.js",
-    "static/js/2.0e0127f0.chunk.js.map": "/portfolio/static/js/2.0e0127f0.chunk.js.map",
+    "static/js/2.a3aedafa.chunk.js": "/portfolio/static/js/2.a3aedafa.chunk.js",
+    "static/js/2.a3aedafa.chunk.js.map": "/portfolio/static/js/2.a3aedafa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dd3f4f46b177e74983b93851d98f16be.js": "/portfolio/precache-manifest.dd3f4f46b177e74983b93851d98f16be.js",
+    "precache-manifest.28f5ecc02f764346aa3ae7867cee1c63.js": "/portfolio/precache-manifest.28f5ecc02f764346aa3ae7867cee1c63.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.bb49a881.chunk.css.map": "/portfolio/static/css/main.bb49a881.chunk.css.map",
+    "static/css/main.b68c6680.chunk.css.map": "/portfolio/static/css/main.b68c6680.chunk.css.map",
     "static/media/2048_logo.svg": "/portfolio/static/media/2048_logo.7bbe4201.svg",
     "static/media/Redux.svg": "/portfolio/static/media/Redux.a566edf1.svg",
     "static/media/code.svg": "/portfolio/static/media/code.5a3e24bd.svg",
@@ -26,12 +26,13 @@
     "static/media/telegram.svg": "/portfolio/static/media/telegram.b661e777.svg",
     "static/media/todolist_bw.png": "/portfolio/static/media/todolist_bw.75a7fb38.png",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.62f7492e.svg",
-    "static/media/websocket.svg": "/portfolio/static/media/websocket.c7ad01b2.svg"
+    "static/media/websocket.svg": "/portfolio/static/media/websocket.c7ad01b2.svg",
+    "static/media/websocket_chat.png": "/portfolio/static/media/websocket_chat.b4a0ab38.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f53748bf.js",
-    "static/js/2.0e0127f0.chunk.js",
-    "static/css/main.bb49a881.chunk.css",
-    "static/js/main.d8596fa3.chunk.js"
+    "static/js/2.a3aedafa.chunk.js",
+    "static/css/main.b68c6680.chunk.css",
+    "static/js/main.4c863f21.chunk.js"
   ]
 }
