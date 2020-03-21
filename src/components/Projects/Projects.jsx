@@ -3,7 +3,7 @@ import style from './Projects.module.css';
 import SectionTitle from '../SectionTitle/SectionTItle';
 import Project from './Project/Project';
 import todolistPic from './../../assets/projects/todolist_bw.png';
-import networkPic from './../../assets/projects/network_bw.png';
+import socialNetworkPic from './../../assets/projects/social_network.png';
 import pic2048 from './../../assets/projects/2048_logo.svg';
 import websocketPic from './../../assets/projects/websocket_chat.png';
 
