@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://deluxe1cookie.github.io/portfolio/",
   "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "axios": "^0.19.2",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-animated-css": "^1.2.1",

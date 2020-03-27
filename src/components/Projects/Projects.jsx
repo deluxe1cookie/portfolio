@@ -32,10 +32,10 @@ class Projects extends React.Component {
             {
                 title: 'Социальная сеть',
                 delay: 600,
-                img: networkPic,
-                //   link: '',
+                img: socialNetworkPic,
+                link: 'https://deluxe1cookie.github.io/social_network/',
                 description: 'Небольшая социальная сеть на React.',
-                todo: 'В разработке'
+                todo: 'Познакомиться!'
             },
             {
                 title: 'Список дел',
@@ -46,7 +46,7 @@ class Projects extends React.Component {
                 todo: 'В разработке'
             }
         ],
-        sectionTitleLinesColors: ['#00a800']
+        sectionTitleLinesColors: ['#3351a8']
     };
 
     render() {
