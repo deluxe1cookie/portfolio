@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './SectionTitle.module.css'
-import {Fade} from "react-reveal";
+import style from './SectionTitle.module.css';
+import {Fade} from 'react-reveal';
 
 function SectionTitle(props) {
     return (

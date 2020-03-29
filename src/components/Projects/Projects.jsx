@@ -6,6 +6,7 @@ import todolistPic from './../../assets/projects/todolist_bw.png';
 import socialNetworkPic from './../../assets/projects/social_network.png';
 import pic2048 from './../../assets/projects/2048_logo.svg';
 import websocketPic from './../../assets/projects/websocket_chat.png';
+import Slider from 'infinite-react-carousel';
 
 class Projects extends React.Component {
     state = {
@@ -46,11 +47,11 @@ class Projects extends React.Component {
                 todo: 'В разработке'
             }
         ],
-        sectionTitleLinesColors: ['#3351a8']
+        sectionTitleLinesColors: ['#8d2228']
     };
 
     render() {
-        const projectElement = this.state.projects.map(p => {
+        const projectElements = this.state.projects.map(p => {
             return <Project title={p.title} delay={p.delay} img={p.img} link={p.link} description={p.description}
                             todo={p.todo}/>;
         });
@@ -58,12 +59,10 @@ class Projects extends React.Component {
         return (
             <div id="projects" className={style.projects}>
                 <div className={style.container}>
-
                     <SectionTitle title={`Мои Проекты`} linesColors={this.state.sectionTitleLinesColors}/>
-
-                    <div className={style.projectsWrap}>
-                        {projectElement}
-                    </div>
+                    <Slider dots adaptiveHeight autoplay autoplaySpeed={6000}>
+                        {projectElements}
+                    </Slider>
                 </div>
             </div>
         );
