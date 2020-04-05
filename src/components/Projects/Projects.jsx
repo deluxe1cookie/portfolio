@@ -17,7 +17,7 @@ class Projects extends React.Component {
                 delay: 100,
                 img: covid19Pic,
                 link: 'https://pensive-brahmagupta-93011c.netlify.com/',
-                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса',
+                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса.',
                 todo: 'Понапрягаться!'
             },
             {
@@ -25,7 +25,7 @@ class Projects extends React.Component {
                 delay: 200,
                 img: galleryPic,
                 link: 'https://modest-cori-8b1bbc.netlify.com/',
-                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса',
+                description: 'Красиво оформленные бесконечные фотографии, которые можно легко скачать.',
                 todo: 'Посозерцать!'
             },
             {
