@@ -6,13 +6,31 @@ import todolistPic from './../../assets/projects/todolist_bw.png';
 import socialNetworkPic from './../../assets/projects/social_network.png';
 import pic2048 from './../../assets/projects/2048_logo.svg';
 import websocketPic from './../../assets/projects/websocket_chat.png';
+import galleryPic from './../../assets/projects/gallery.jpg';
+import covid19Pic from './../../assets/projects/covid19.png';
 
 class Projects extends React.Component {
     state = {
         projects: [
             {
-                title: 'Websocket-чат',
+                title: 'COVID-19 в Беларуси',
+                delay: 100,
+                img: covid19Pic,
+                link: 'https://pensive-brahmagupta-93011c.netlify.com/',
+                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса',
+                todo: 'Понапрягаться!'
+            },
+            {
+                title: 'Бесконечная галерея',
                 delay: 200,
+                img: galleryPic,
+                link: 'https://modest-cori-8b1bbc.netlify.com/',
+                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса',
+                todo: 'Посозерцать!'
+            },
+            {
+                title: 'Websocket-чат',
+                delay: 300,
                 img: websocketPic,
                 link: 'https://inspiring-montalcini-0d1812.netlify.com/',
                 description: 'Протокол обеспечивает ' +
@@ -31,7 +49,7 @@ class Projects extends React.Component {
             },
             {
                 title: 'Социальная сеть',
-                delay: 600,
+                delay: 500,
                 img: socialNetworkPic,
                 link: 'https://deluxe1cookie.github.io/social_network/',
                 description: 'Небольшая социальная сеть на React.',
@@ -39,7 +57,7 @@ class Projects extends React.Component {
             },
             {
                 title: 'Список дел',
-                delay: 800,
+                delay: 600,
                 img: todolistPic,
                 // link: '',
                 description: 'Удобный todolist для людей.',
