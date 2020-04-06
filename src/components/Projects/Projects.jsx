@@ -13,20 +13,23 @@ class Projects extends React.Component {
     state = {
         projects: [
             {
-                title: 'COVID-19 в Беларуси',
+                title: 'COVID-19',
                 delay: 100,
                 img: covid19Pic,
                 link: 'https://pensive-brahmagupta-93011c.netlify.com/',
-                description: 'Данные, взятые из Центра системных наук и инженерии при Университете Джона Хопкинса.',
-                todo: 'Понапрягаться!'
+                description: 'На основе Вашего местоположения актуальные данные, взятые из Центра системных наук ' +
+                    'и инженерии при Университете Джона Хопкинса.',
+                todo: 'Понапрягаться!',
+                githubLink: 'https://github.com/deluxe1cookie/covid-19-belarus'
             },
             {
                 title: 'Бесконечная галерея',
                 delay: 200,
                 img: galleryPic,
                 link: 'https://modest-cori-8b1bbc.netlify.com/',
-                description: 'Красиво оформленные бесконечные фотографии, которые можно легко скачать.',
-                todo: 'Посозерцать!'
+                description: 'Красиво оформленные фотографии, которые можно легко скачать.',
+                todo: 'Посозерцать!',
+                githubLink: 'https://github.com/deluxe1cookie/infinitePhotos'
             },
             {
                 title: 'Websocket-чат',
@@ -36,7 +39,8 @@ class Projects extends React.Component {
                 description: 'Протокол обеспечивает ' +
                     'возможность обмена данными между браузером и сервером через постоянное соединение в виде ' +
                     '«пакетов», без разрыва соединения и дополнительных HTTP-запросов.',
-                todo: 'Пообщаться!'
+                todo: 'Пообщаться!',
+                githubLink: 'https://github.com/deluxe1cookie/websocket-chat-reactjs'
             },
             {
                 title: '2048',
@@ -45,7 +49,8 @@ class Projects extends React.Component {
                 link: 'https://deluxe1cookie.github.io/2048/',
                 description: '19-летний итальянский разработчик Габриэле Чирулли (Gabriele Cirulli) создал ' +
                     'чрезвычайно захватывающую игру 2048, скрестив тетрис и «пятнашки».',
-                todo: 'Поиграть!'
+                todo: 'Поиграть!',
+                githubLink: 'https://github.com/deluxe1cookie/2048'
             },
             {
                 title: 'Социальная сеть',
@@ -53,7 +58,8 @@ class Projects extends React.Component {
                 img: socialNetworkPic,
                 link: 'https://deluxe1cookie.github.io/social_network/',
                 description: 'Небольшая социальная сеть на React.',
-                todo: 'Познакомиться!'
+                todo: 'Познакомиться!',
+                githubLink: 'https://github.com/deluxe1cookie/social_network'
             },
             {
                 title: 'Список дел',
@@ -61,7 +67,8 @@ class Projects extends React.Component {
                 img: todolistPic,
                 // link: '',
                 description: 'Удобный todolist для людей.',
-                todo: 'В разработке'
+                todo: 'В разработке',
+                // githubLink: ''
             }
         ],
         sectionTitleLinesColors: ['#3351a8']
@@ -70,7 +77,8 @@ class Projects extends React.Component {
     render() {
         const projectElement = this.state.projects.map(p => {
             return <Project title={p.title} delay={p.delay} img={p.img} link={p.link} description={p.description}
-                            todo={p.todo}/>;
+                            todo={p.todo} githubLink={p.githubLink}/>
+                ;
         });
 
         return (
