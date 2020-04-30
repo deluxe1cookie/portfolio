@@ -9,10 +9,14 @@ function Project(props) {
             <a className={style.projectLink}
                href={props.link}
                target='_blank' rel='noopener noreferrer'>{props.todo}</a>
+
+            {props.githubLink &&
+            <div className={style.githubIcon}><SocialIcon icon={gitIcon} link={props.githubLink}/></div>}
+
+
             <div className={style.projectDescr}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <p className={style.projectDescrText}>{props.description}</p>
-                <div className={style.githubIcon}><SocialIcon icon={gitIcon} link={props.githubLink}/></div>
             </div>
         </div>
     );

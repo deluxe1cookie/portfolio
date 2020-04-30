@@ -44,49 +44,60 @@ class Skills extends React.Component {
                 delay: 600
             },
             {
+                title: 'Vue',
+                icon: 'https://raw.githubusercontent.com/vuejs/art/9f8ee218d32b52c2d150212f22798a7a61689361/logo.svg',
+                delay: 100
+            },
+            {
+                title: 'Vuex',
+                icon: 'https://raw.githubusercontent.com/vuejs/art/9f8ee218d32b52c2d150212f22798a7a61689361/logo.svg',
+                delay: 200
+            },
+
+            {
                 title: 'GIT',
                 icon: gitIcon,
-                delay: 700
+                delay: 300
             },
             {
                 title: 'REST API',
                 icon: restIcon,
-                delay: 800
+                delay: 400
             },
             {
                 title: 'WebSocket',
                 icon: websocketIcon,
-                delay: 900
+                delay: 500
             }
         ],
         backendSkills: [
             {
                 title: 'NodeJS (Express)',
                 icon: 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg',
-                delay: 1000
+                delay: 100
             },
             {
                 title: 'PHP',
                 icon: phpIcon,
-                delay: 1200
+                delay: 200
             },
             {
                 title: 'C#',
                 icon: cIcon,
-                delay: 1200
+                delay: 300
             },
         ],
         databaseSkills: [
             {
                 title: 'MongoDB',
                 icon: mongodbIcon,
-                delay: 1100
+                delay: 100
             },
             {
 
                 title: 'MySql',
                 icon: mysqlIcon,
-                delay: 1300
+                delay: 200
             }
         ],
         sectionTitleLinesColors: ['#4e93e6', '#00a800', '#930095']
